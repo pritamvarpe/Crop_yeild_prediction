@@ -1,0 +1,4 @@
+Django==4.2.7
+requests==2.31.0
+openai==1.106.1
+scikit-learn==1.7.1

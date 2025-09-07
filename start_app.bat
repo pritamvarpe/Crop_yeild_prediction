@@ -1,0 +1,13 @@
+@echo off
+echo Starting AI-Driven Agricultural Advisory Platform for Odisha...
+echo.
+echo Installing dependencies...
+pip install Django==4.2.7
+echo.
+echo Running migrations...
+python manage.py migrate
+echo.
+echo Starting development server...
+echo Open http://localhost:8000 in your browser
+echo.
+python manage.py runserver
